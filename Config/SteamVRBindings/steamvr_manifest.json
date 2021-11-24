@@ -148,23 +148,79 @@
 			"requirement": "optional"
 		},
 		{
-			"name": "/actions/main/in/Use(R)",
+			"name": "/actions/main/in/GrabLeft",
 			"type": "boolean"
 		},
 		{
-			"name": "/actions/main/in/Use(L)",
+			"name": "/actions/main/in/GrabRight",
 			"type": "boolean"
 		},
 		{
-			"name": "/actions/main/in/TurnRate axis",
+			"name": "/actions/main/in/TriggerLeft",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/TriggerRight",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/MenuToggleLeft",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/MenuToggleRight",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/MovementAxisLeft_X,MovementAxisLeft_Y X Y_axis2d",
+			"type": "vector2"
+		},
+		{
+			"name": "/actions/main/in/GrabAxisLeft axis",
 			"type": "vector1"
 		},
 		{
-			"name": "/actions/main/in/MoveForward axis",
+			"name": "/actions/main/in/TriggerAxisLeft axis",
 			"type": "vector1"
 		},
 		{
-			"name": "/actions/main/in/MoveRight axis",
+			"name": "/actions/main/in/TriggerAxisRight axis",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/main/in/GrabAxisRight axis",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/main/in/SpectatorYaw axis",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/main/in/SpectatorPitch axis",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/main/in/SpectatorFOV axis",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/main/in/SpectatorMoveForward axis",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/main/in/SpectatorMoveRight axis",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/main/in/SpectatorMoveUp axis",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/main/in/MovementAxisRight_X,MovementAxisRight_Y X Y_axis2d",
+			"type": "vector2"
+		},
+		{
+			"name": "/actions/main/in/MovementAxisRight_Y axis",
 			"type": "vector1"
 		}
 	],
@@ -408,11 +464,25 @@
 			"/actions/main/out/vibrateleft": "Haptic (Left)",
 			"/actions/main/out/vibrateright": "Haptic (Right)",
 			"/actions/main/in/open_console": "Open Console",
-			"/actions/main/in/Use(R)": "Use(R)",
-			"/actions/main/in/Use(L)": "Use(L)",
-			"/actions/main/in/TurnRate axis": "TurnRate",
-			"/actions/main/in/MoveForward axis": "MoveForward",
-			"/actions/main/in/MoveRight axis": "MoveRight",
+			"/actions/main/in/GrabLeft": "GrabLeft",
+			"/actions/main/in/GrabRight": "GrabRight",
+			"/actions/main/in/TriggerLeft": "TriggerLeft",
+			"/actions/main/in/TriggerRight": "TriggerRight",
+			"/actions/main/in/MenuToggleLeft": "MenuToggleLeft",
+			"/actions/main/in/MenuToggleRight": "MenuToggleRight",
+			"/actions/main/in/MovementAxisLeft_X,MovementAxisLeft_Y X Y_axis2d": "MovementAxisLeft",
+			"/actions/main/in/GrabAxisLeft axis": "GrabAxisLeft",
+			"/actions/main/in/TriggerAxisLeft axis": "TriggerAxisLeft",
+			"/actions/main/in/TriggerAxisRight axis": "TriggerAxisRight",
+			"/actions/main/in/GrabAxisRight axis": "GrabAxisRight",
+			"/actions/main/in/SpectatorYaw axis": "SpectatorYaw",
+			"/actions/main/in/SpectatorPitch axis": "SpectatorPitch",
+			"/actions/main/in/SpectatorFOV axis": "SpectatorFOV",
+			"/actions/main/in/SpectatorMoveForward axis": "SpectatorMoveForward",
+			"/actions/main/in/SpectatorMoveRight axis": "SpectatorMoveRight",
+			"/actions/main/in/SpectatorMoveUp axis": "SpectatorMoveUp",
+			"/actions/main/in/MovementAxisRight_X,MovementAxisRight_Y X Y_axis2d": "MovementAxisRight",
+			"/actions/main/in/MovementAxisRight_Y axis": "MovementAxisRight_Y",
 			"/actions/main": "Main Game Actions"
 		}
 	]
